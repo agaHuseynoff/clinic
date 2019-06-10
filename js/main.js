@@ -238,4 +238,36 @@ showMail.on('click', function(e) {
     });
 
 })(jQuery);
+/////////////////////////////////////////////////////////////////////////
+// Send CV
+////////////////////////////////////////////////////////////////////////
+function sendCv(){
+    $('.send-cv').click(function(){
+        var elemOffTop = $('.send-cv-form').offset().top - 100;
+        $("body, html").animate({
+            scrollTop: elemOffTop
+        }, 500);
+
+
+    })
+}
+sendCv();
+
+ /////////////////////////////////////////////////////////////////////////
+// Sub=Menu
+////////////////////////////////////////////////////////////////////////
+
+$('.submenu-box').on('click' , function(e){
+    var self = $(this);
+    e.preventDefault();
+    $(self).closest('li').find('i').toggleClass('rotate-icon');
+    $(self).closest('li').find('.submenu').slideToggle();
+
+})
+
+
+
+
+
+
 }); // Document ready
