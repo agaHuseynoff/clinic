@@ -506,6 +506,10 @@ ul.dropdown-menu > li:last-child > a {
     color: #4c6575;
 }
 
+/*.navbar-brand img{
+    filter: grayscale(100%);
+}*/
+
 .navbar-dark .navbar-brand {
     color: #fff;
 }
