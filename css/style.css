@@ -1197,44 +1197,44 @@ ul.dropdown-menu > li:last-child > a {
     padding: 10px;
 }
 
-#blog .department-menu {
+.department-menu {
     background-color: #32b8da;
     color: #fff;
     padding: 15px 25px;
 }
 
-#blog .department-menu ul li {
+ .department-menu ul li {
     padding: 12px 0;
     border-bottom: 1px solid rgba(244, 244, 244, 0.3);
       position: relative;
 }
 
-#blog .department-menu ul li a {
+.department-menu ul li a {
     color: #fff;
     display: block;
 }
 
-#blog .department-menu-dark {
+.department-menu .department-menu-dark {
     background-color: #4c6575;
     color: #fff;
     padding: 15px 25px;
 }
 
-#blog .department-menu-dark ul li {
+.department-menu .department-menu-dark ul li {
     padding: 12px 0;
     border-bottom: 1px solid rgba(244, 244, 244, 0.3);
 
 }
 
-#blog .department-menu-dark ul li a {
+.department-menu .department-menu-dark ul li a {
     color: #fff;
 }
 
-#blog .submenu{
+.department-menu .submenu{
     display: none;
 }
 
-#blog .sub-m li i{
+.department-menu .sub-m li i{
     position: absolute;
     right: 10px;
     top: 15px;
